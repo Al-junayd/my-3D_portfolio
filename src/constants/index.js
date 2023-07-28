@@ -1,7 +1,6 @@
 import {
-  mobile,
-  backend,
   creator,
+  lusters,
   web,
   javascript,
   typescript,
@@ -10,16 +9,14 @@ import {
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
+  portfolio,
+  ai,
+  mui,
+  next,
+  misty,
+  mvp,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
   jobit,
   tripguide,
   threejs,
@@ -44,14 +41,6 @@ const services = [
   {
     title: "Web Developer",
     icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
   },
   {
     title: "Content Creator",
@@ -88,14 +77,7 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+
   {
     name: "Three JS",
     icon: threejs,
@@ -109,62 +91,48 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "Next.js",
+    icon: next,
   },
+  {
+    name: "Material UI",
+    icon: mui,
+  },
+  ,
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Frontend Developer",
+    company_name: "Mainviews Properties Ltd, United Kingdom",
+    icon: mvp,
+    iconBg: "#ffffff",
+    date: "September 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Accomplished the development of a comprehensive real estate website with full functionalities, including property search, advanced filters, and Google Maps integration.",
+      "Increased user engagement and satisfaction by optimizing website performance, resulting in a 30% decrease in page load time.",
+      "Quantified user satisfaction through survey ratings, where the average score increased from 3.8 to 4.6 out of 5.",
+      "Designed and implemented an intuitive Construction Management System tailored to the company's needs, streamlining project management and communication.",
+      "- Utilized modern web technologies, such as Nextjs and Redux toolkit, to build a real-time communication platform between project managers and construction teams.",
+      " - Reduced project delays by 20% by tracking project milestones and issues in real-time, minimizing communication gaps.",
+      "Stayed updated with the latest industry trends and emerging technologies to continuously improve skills and contribute toinnovative projects",
+      "Achieved a 35% boost in lead generation and conversion rates through advanced property search filters and implemented with Elasticsearch to power the search functionality, enabling users to find properties based on specific criteria efficiently.",
+      "Ensured excellent user experience and mobile-friendliness, leading to a 40% increase in mobile traffic and better Google search rankings.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Frontend Developer(Intern)",
+    company_name: "MistyArts",
+    icon: misty,
+    iconBg: "#ffffff",
+    date: "July 2022 - November 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and deployed a responsive web application using HTML, CSS, and JavaScript, which significantly improved user engagement and achieved a 20% increase in website traffic.",
+      "Implemented efficient coding practices, resulting in a 15% reduction in page load time and enhancing the overall user experience",
+      "Assisted in the development, testing, and maintenance of web applications using HTML, CSS, and JavaScript, ensuring high-quality and efficient code.",
+      "Collaborated with cross-functional teams, including designers and backend developers, to gather requirements and design user interfaces that met client needs and provided a seamless user experience.",
+      "Implemented responsive web design principles, optimizing applications to render well on different devices and screen sizes",
+      "Debugged and troubleshooted frontend issues, identifying and resolving bugs to ensure optimal performance and usability.",
     ],
   },
 ];
@@ -172,93 +140,107 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I thought it was impossible to make a website as beautiful as our product, but Abdulllah proved me wrong.",
+    name: "Mustafa Oladepo",
+    designation: "CEO,",
+    company: "MistyArts",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Abdullah is a very good developer with indepth knowledge in different Frontend technologies technologies. I, as a Product Designer, have worked with him on different projects and his expertise in developing perfect and neat UIs have helped in bringing my designs to life.",
+    name: "Adebayo Abdulquadri",
+    designation: "UI/UX Designer,",
+    company: "Mainviews Properties",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Lusters Ecommerce",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Lusters Ecommerce web app is an online platform that enables businesses to sell products or services to customers over the internet. It serves as a virtual store where customers can browse through a wide range of products, add them to a cart, and make purchases securely(by virtue of stripe integration).",
     tags: [
       {
-        name: "react",
+        name: "Javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Next.js",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Stripe Payment gateway",
         color: "pink-text-gradient",
       },
+      {
+        name: "useContext API",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      ,
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    demo: "https://lusters-ecommerce-admin.vercel.app/",
+    image: lusters,
+    source_code_link: "https://github.com/Al-junayd/lusters_ecommerce",
   },
   {
-    name: "Job IT",
+    name: "AI article summarizer",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The AI Article Summarizer is a web app using OpenAI's technology to summarize articles from provided links. It features link storage with LocalStorage for easy access, click-to-summarize functionality, and clipboard integration. Users can quickly obtain concise summaries, enhancing productivity and organization.",
     tags: [
       {
-        name: "react",
+        name: "Nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "OpenAI API",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Redux",
         color: "pink-text-gradient",
       },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    demo: "https://ai-summarizer1.netlify.app/",
+    image: ai,
+    source_code_link: "https://github.com/Al-junayd/ai-summarizer",
   },
   {
-    name: "Trip Guide",
+    name: "3D portfolio",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This 3D Portfolio showcases a captivating collection of intricate and diverse 3D artworks, highlighting the my skills and creativity. Through a user-friendly interface, visitors can explore stunning 3D models and animations, offering potential clients and enthusiasts a glimpse into my talent.",
     tags: [
       {
-        name: "nextjs",
+        name: "Vite",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Canvas",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "three.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "framer-motion",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    demo: "#",
+    image: portfolio,
+    source_code_link: "https://github.com/Al-junayd/my-3D_portfolio",
   },
 ];
 
