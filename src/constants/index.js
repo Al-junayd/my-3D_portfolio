@@ -19,6 +19,9 @@ import {
   figma,
   jobit,
   tripguide,
+  mvpProject,
+  strablLogo,
+  strablProject,
   threejs,
 } from "../assets";
 
@@ -39,7 +42,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Development",
     icon: web,
   },
   {
@@ -103,21 +106,32 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Frontend Developer",
-    company_name: "Mainviews Properties Ltd, United Kingdom",
+    title: "Frontend Engineer",
+    company_name: "Mainviews Properties Ltd",
     icon: mvp,
     iconBg: "#ffffff",
     date: "September 2022 - Present",
     points: [
       "Accomplished the development of a comprehensive real estate website with full functionalities, including property search, advanced filters, and Google Maps integration.",
       "Increased user engagement and satisfaction by optimizing website performance, resulting in a 30% decrease in page load time.",
-      "Quantified user satisfaction through survey ratings, where the average score increased from 3.8 to 4.6 out of 5.",
       "Designed and implemented an intuitive Construction Management System tailored to the company's needs, streamlining project management and communication.",
-      "- Utilized modern web technologies, such as Nextjs and Redux toolkit, to build a real-time communication platform between project managers and construction teams.",
-      " - Reduced project delays by 20% by tracking project milestones and issues in real-time, minimizing communication gaps.",
-      "Stayed updated with the latest industry trends and emerging technologies to continuously improve skills and contribute toinnovative projects",
+      "Utilized modern web technologies, such as Nextjs and Redux toolkit, to build a real-time communication platform between project managers and construction teams.",
       "Achieved a 35% boost in lead generation and conversion rates through advanced property search filters and implemented with Elasticsearch to power the search functionality, enabling users to find properties based on specific criteria efficiently.",
       "Ensured excellent user experience and mobile-friendliness, leading to a 40% increase in mobile traffic and better Google search rankings.",
+    ],
+  },
+  {
+    title: "Frontend Engineer",
+    company_name: "STRABL, UAE",
+    icon: strablLogo,
+    iconBg: "#ffffff",
+    date: "September 2023 - October 2023",
+    points: [
+      "Accomplished seamless API integration for Try Now, Buy Later payment checkout solutions, ensuring a frictionless user experience, as measured by a 30% increase in successful transactions.",
+      "Collaborated with cross-functional teams to develop and maintain user-friendly frontend software, enhancing the company's brand and user satisfaction.",
+      "Implemented responsive design principles and optimized web performance, resulting in a 20% reduction in bounce rates and improved page load times.",
+      "Assisted in the development of innovative features and enhancements, contributing to a 15% growth in customer engagement and product adoption.",
+      "Worked closely with QA teams to identify and resolve software defects, maintaining a high-quality product and reducing post-release issues by 25%.",
     ],
   },
   {
@@ -140,6 +154,13 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
+      "What sets Abdullah apart is his exceptional work ethic and problem-solving abilities. He approaches challenges with a creative mindset and consistently delivers high-quality results. He’s a reliable and collaborative team member, always willing to go the extra mile to ensure project success. Abdullah’s contributions have been instrumental in STRABL. His dedication to excellence is an asset to any team, and I have no doubt that he will continue to excel in his future endeavors.",
+    name: "Murtaza Khursheed",
+    designation: "CTO/Co-founder,",
+    company: "STRABL",
+  },
+  {
+    testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Abdulllah proved me wrong.",
     name: "Mustafa Oladepo",
     designation: "CEO,",
@@ -155,6 +176,80 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Mainviews Properties",
+    description:
+      "Mainviews Properties is a leading real estate company, dedicated to delivering exceptional solutions to buyers and sellers",
+    tags: [
+      {
+        name: "Javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Stripe Payment gateway",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "useContext API",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+      ,
+    ],
+    demo: "https://www.mainviewsproperties.com/",
+    image: mvpProject,
+    source_code_link: "#",
+  },
+  {
+    name: "STRABL",
+    description:
+      "STRABL is MENA 1st supercharged end-to-end payments and checkout solution that democratizes digital payments",
+    tags: [
+      {
+        name: "Javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Stripe Payment gateway",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "useContext API",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "StoryBook",
+        color: "pink-text-gradient",
+      },
+      ,
+    ],
+    demo: "https://www.strabl.io",
+    image: strablProject,
+    source_code_link: "#",
+  },
   {
     name: "Lusters Ecommerce",
     description:
@@ -240,7 +335,7 @@ const projects = [
     ],
     demo: "#",
     image: portfolio,
-    source_code_link: "https://github.com/Al-junayd/my-3D_portfolio",
+    source_code_link: "#",
   },
 ];
 

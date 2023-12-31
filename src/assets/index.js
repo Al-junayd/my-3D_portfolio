@@ -25,14 +25,20 @@ import mvp from "./company/mvp.png";
 import misty from "./company/misty.jpg";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import strablLogo from "./company/strabl_logo.svg";
 
 import lusters from "./lusters.png";
 import ai from "./ai.png";
 import portfolio from "./portfolio.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import mvpProject from "./mvp-projects.png";
+import strablProject from "./strabl-project-image.png";
 
 export {
+  mvpProject,
+  strablLogo,
+  strablProject,
   creator,
   portfolio,
   ai,
