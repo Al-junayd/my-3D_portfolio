@@ -1,28 +1,39 @@
 import {
+  abetilogo,
+  ai,
+  cicd,
   creator,
-  lusters,
-  web,
-  javascript,
-  typescript,
-  html,
   css,
+  docker,
+  figma,
+  git,
+  html,
+  javascript,
+  jobit,
+  llm,
+  lusters,
+  misty,
+  mui,
+  mvp,
+  mvpProject,
+  nestjs,
+  next,
+  nodejs,
+  openai,
+  portfolio,
+  prepify,
+  python,
+  RabehLogo,
   reactjs,
   redux,
-  tailwind,
-  portfolio,
-  ai,
-  mui,
-  next,
-  misty,
-  mvp,
-  git,
-  figma,
-  jobit,
-  tripguide,
-  mvpProject,
+  spark,
   strablLogo,
   strablProject,
+  tailwind,
   threejs,
+  tripguide,
+  typescript,
+  web,
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +57,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Content Creator",
+    title: "Backend development",
     icon: creator,
   },
 ];
@@ -71,6 +82,10 @@ const technologies = [
   {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
   },
   {
     name: "Redux Toolkit",
@@ -101,10 +116,66 @@ const technologies = [
     name: "Material UI",
     icon: mui,
   },
+  {
+    name: "Docker",
+    icon: docker,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Nest JS",
+    icon: nestjs,
+  },
+  {
+    name: "CI/CD",
+    icon: cicd,
+  },
+  {
+    name: "spark",
+    icon: spark,
+  },
+  {
+    name: "LLM",
+    icon: llm,
+  },
+  {
+    name: "Open AI",
+    icon: openai,
+  },
   ,
 ];
 
 const experiences = [
+  {
+    title: "Senior Frontend Engineer (contract)",
+    company_name: "RABEH, Saudi Arabia",
+    icon: RabehLogo,
+    iconBg: "#ffffff",
+    date: "December 2024 - February 2025",
+    points: [
+      "Developed a secure authentication system, integrating OAuth, multi-factor authentication (MFA), and role-based access control (RBAC), improving security by 60%",
+      "Led the frontend architecture and development of a scalable investment and crowdfunding platform, ensuring high performance and modular design.",
+      "Implemented internationalization (i18n) to support multiple languages, enhancing accessibility for investors across the MENA region.",
+      "Integrated a multi-currency payment gateway, enabling seamless transactions across multiple regions, increasing user adoption by 40 %.",
+      "Collaborated with backend and DevOps teams, leveraging Docker and CI/CD pipelines to streamline deployment workflows",
+    ],
+  },
+  {
+    title: "Backend Engineer (contract)",
+    company_name: "Lagos, Nigeria",
+    icon: abetiLogo,
+    iconBg: "#ffffff",
+    date: "April 2024 - December 2024",
+    points: [
+      "Built an automated audiobook pipeline using Azure and Python, streamlining conversion, stitching, and compression, cutting processing time by 70%.",
+      "Engineered a data pipeline for HR analytics using Python and SQL, tracking employee retention and growth, improving workforce planning by 30%.",
+      "Enhanced audiobook playback using Python and Celery, enabling bookmarks, progress tracking, and seamless resumption, boosting user engagement.",
+      "Integrated Paystack for secure payments, ensuring seamless transactions for audiobooks and HR subscriptions.",
+      "Collaborated with DevOps teams, streamlining deployment using Docker and CI/CD pipelines for scalable infrastructure management.",
+    ],
+  },
   {
     title: "Frontend Engineer",
     company_name: "STRABL, UAE",
@@ -126,7 +197,7 @@ const experiences = [
     company_name: "Mainviews Properties Ltd",
     icon: mvp,
     iconBg: "#ffffff",
-    date: "September 2022 - Present",
+    date: "July 2021 - PreSeptember 2023sent",
     points: [
       "Construction Management System: Developed a robust CMS for real-time project tracking, cost monitoring, and task management using JavaScript, Tailwind, and Next.js, cutting project delays by 25%.",
       "Real Estate Platform: Engineered a property search and filter system with Google Maps integration, driving a 35% boost in lead generation.",
@@ -138,11 +209,11 @@ const experiences = [
   },
 
   {
-    title: "Frontend Developer(Intern)",
+    title: "Frontend Developer",
     company_name: "MistyArts",
     icon: misty,
     iconBg: "#ffffff",
-    date: "July 2022 - November 2022",
+    date: "February 2021 - July 2021",
     points: [
       "Developed and deployed a responsive web application using HTML, CSS, and JavaScript, which significantly improved user engagement and achieved a 20% increase in website traffic.",
       "Implemented efficient coding practices, resulting in a 15% reduction in page load time and enhancing the overall user experience",
@@ -180,24 +251,24 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Mainviews Properties",
+    name: "Rabeh Crowdfunding Platform",
     description:
-      "Mainviews Properties is a leading real estate company, dedicated to delivering exceptional solutions to buyers and sellers",
+      "A cutting-edge platform for Crowdfunding, Crowd-investing, and an Exchange that leverages advanced technologies to connect entrepreneurs and investors.",
     tags: [
       {
-        name: "Javascript",
+        name: "Typescript",
         color: "blue-text-gradient",
       },
       {
-        name: "Next.js",
+        name: "react-vite",
         color: "green-text-gradient",
       },
       {
-        name: "Stripe Payment gateway",
+        name: "React query",
         color: "pink-text-gradient",
       },
       {
-        name: "useContext API",
+        name: "Zustand",
         color: "blue-text-gradient",
       },
       {
@@ -205,15 +276,77 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Typescript",
+        name: "Zod",
         color: "blue-text-gradient",
       },
       ,
     ],
-    demo: "https://www.mainviewsproperties.com/",
-    image: mvpProject,
-    source_code_link: "#",
+    demo: "https://rabeh.sa/",
+    image: RabehLogo,
+    source_code_link: "",
   },
+  {
+    name: "Prepify AI",
+    description:
+      "An AI-powered platform for preparing for mock interviews built on VAPI AI agents",
+    tags: [
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Google Gemini",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "VAPI AI Agents",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "blue-text-gradient",
+      },
+      ,
+    ],
+    demo: "https://prepify-ai-interviewer.vercel.app/",
+    image: prepify,
+    source_code_link: "https://github.com/Al-junayd/prepify-ai-interviewer",
+  },
+  {
+    name: "AI article summarizer",
+    description:
+      "The AI Article Summarizer is a web app using OpenAI's technology to summarize articles from provided links. It features link storage with LocalStorage for easy access, click-to-summarize functionality, and clipboard integration. Users can quickly obtain concise summaries, enhancing productivity and organization.",
+    tags: [
+      {
+        name: "Nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "OpenAI API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Redux",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "green-text-gradient",
+      },
+    ],
+    demo: "https://openai-summarizer1.netlify.app/",
+    image: ai,
+    source_code_link: "https://github.com/Al-junayd/ai-summarizer",
+  },
+
   {
     name: "STRABL",
     description:
@@ -284,32 +417,7 @@ const projects = [
     image: lusters,
     source_code_link: "https://github.com/Al-junayd/lusters_ecommerce",
   },
-  {
-    name: "AI article summarizer",
-    description:
-      "The AI Article Summarizer is a web app using OpenAI's technology to summarize articles from provided links. It features link storage with LocalStorage for easy access, click-to-summarize functionality, and clipboard integration. Users can quickly obtain concise summaries, enhancing productivity and organization.",
-    tags: [
-      {
-        name: "Nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "OpenAI API",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Redux",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Tailwind CSS",
-        color: "green-text-gradient",
-      },
-    ],
-    demo: "https://ai-summarizer1.netlify.app/",
-    image: ai,
-    source_code_link: "https://github.com/Al-junayd/ai-summarizer",
-  },
+
   {
     name: "3D portfolio",
     description:

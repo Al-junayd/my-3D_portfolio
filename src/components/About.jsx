@@ -1,10 +1,10 @@
+import { motion } from "framer-motion";
 import React from "react";
 import Tilt from "react-tilt";
-import { motion } from "framer-motion";
 
-import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
+import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
@@ -47,13 +47,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[18px] max-w-3xl leading-[30px]"
       >
-        A proactive web developer with an eye for layout aesthetics, ability to
-        implement solutions that are user responsive and efficient, capable of
-        implementing a resilient web architecture, posses great problem-solving
-        skills and work efficiently in a team, knowledge of the entire web
-        development process, mindful about time management and productivity, and
-        ultimately, curious about new technologies and driven to find ways to
-        implement them in my work.
+        A Seasoned Full Stack Engineer with expertise in React, Next.js,
+        TypeScript, JavaScript, and Python, skilled in building
+        high-performance, scalable applications. Proficient in Docker, CI/CD
+        pipelines, cloud platforms, and modern Web APIs, with hands-on
+        experience in design systems, Storybook, and accessibility-first
+        development. Strong backend capabilities, leveraging Node.js, Nest.js,
+        and containerized services for efficient deployment. Passionate about
+        AI, LLMs, and integrating intelligent automation into applications, with
+        a track record of delivering end-to-end solutions from ideation to
+        production while ensuring performance, security, and maintainability.
       </motion.p>
 
       {/* <div className="mt-20 flex flex-wrap gap-10">
