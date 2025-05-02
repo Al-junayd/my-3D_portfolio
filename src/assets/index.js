@@ -5,7 +5,6 @@ import abetilogo from "./company/abetilogo.png";
 import misty from "./company/misty.jpg";
 import mvp from "./company/mvp.png";
 import prepify from "./company/prepify.png";
-import prepify from "./company/prepify.png";
 import RabehLogo from "./company/rabeh.png";
 import starbucks from "./company/starbucks.png";
 import strablLogo from "./company/strabl_logo.svg";
