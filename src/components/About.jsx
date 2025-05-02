@@ -52,7 +52,7 @@ const About = () => {
         high-performance, scalable applications. Proficient in Docker, CI/CD
         pipelines, cloud platforms, and modern Web APIs, with hands-on
         experience in design systems, Storybook, and accessibility-first
-        development. Strong backend capabilities, leveraging Node.js, Nest.js,
+        development. Strong backend capabilities, leveraging Node.js, Elysia.js,
         and containerized services for efficient deployment. Passionate about
         AI, LLMs, and integrating intelligent automation into applications, with
         a track record of delivering end-to-end solutions from ideation to

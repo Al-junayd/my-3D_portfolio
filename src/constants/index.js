@@ -1,5 +1,5 @@
 import {
-  abetilogo,
+  abetiLogo,
   ai,
   cicd,
   creator,

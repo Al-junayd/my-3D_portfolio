@@ -1,7 +1,7 @@
 import ai from "./ai.png";
 import backend from "./backend.png";
 import close from "./close.svg";
-import abetilogo from "./company/abetilogo.png";
+import abetiLogo from "./company/abetiLogo.png";
 import misty from "./company/misty.jpg";
 import mvp from "./company/mvp.png";
 import prepify from "./company/prepify.png";
@@ -83,6 +83,6 @@ export {
   mui,
   next,
   prepify,
-  abetilogo,
+  abetiLogo,
   RabehLogo,
 };
